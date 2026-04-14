@@ -1,7 +1,8 @@
 # Precision Cane Analytics: Yield & Quality Forecasting 🎋
+[![Icesi University](https://img.shields.io/badge/University-Icesi-004a87.svg)](https://www.icesi.edu.co/)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![ABET Accredited](https://img.shields.io/badge/Program-ABET%20Accredited-orange.svg)](https://www.abet.org/)
-[![Icesi University](https://img.shields.io/badge/University-Icesi-004a87.svg)](https://www.icesi.edu.co/)
+[![ML Framework](https://img.shields.io/badge/Framework-Scikit--Learn%20%2F%20XGBoost-green.svg)](https://scikit-learn.org/)
 
 ## Executive Summary
 This repository hosts a high-performance machine learning pipeline developed for **Ingenio Providencia** Cali, Colombia. The project addresses critical industrial needs for precision agriculture by transforming historical crop data into actionable insights for harvest optimization.
@@ -22,7 +23,7 @@ This repository hosts a high-performance machine learning pipeline developed for
 
 ### Team Responsibilities & Workflow
 The project is modularized to reflect a real-world engineering team structure:
-* **01_EDA & Data Cleansing:** Isabella
+* **01_EDA & Data Cleansing:** Isabella / Luis
 * **02_Linear_Regression (Baseline):** Isabella
 * **03_Logistic_Regression_&_KNN:** Melisa
 * **04_Random_Forest_Ensembles:** Luis
