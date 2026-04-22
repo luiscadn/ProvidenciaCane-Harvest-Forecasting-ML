@@ -1,6 +1,33 @@
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 
+
+def imputar_por_regla_negocio(df, cols_cero=None, cols_no_aplica=None):
+    """
+    Imputa columnas específicas según reglas de negocio:
+    - cols_cero: columnas numéricas que deben imputarse con 0
+    - cols_no_aplica: columnas categóricas que deben imputarse con 'No aplica'
+    """
+    df_result = df.copy()
+    
+    if cols_cero is None:
+        cols_cero = []
+    if cols_no_aplica is None:
+        cols_no_aplica = []
+    
+    for col in cols_cero:
+        if col in df_result.columns:
+            df_result[col] = df_result[col].fillna(0)
+    
+    for col in cols_no_aplica:
+        if col in df_result.columns:
+            df_result[col] = df_result[col].fillna('No aplica')
+    
+    return df_result
+
+
+
+
 def imputar_datos(df):
     """
     Imputa datos nulos a un Dataframe. 
