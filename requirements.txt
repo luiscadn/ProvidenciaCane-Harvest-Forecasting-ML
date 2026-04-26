@@ -19,6 +19,7 @@ matplotlib==3.10.8
 matplotlib-inline==0.2.1
 nest-asyncio==1.6.0
 numpy==2.4.4
+nvidia-nccl-cu12==2.30.4
 openpyxl==3.1.5
 packaging==26.1
 pandas==3.0.2
@@ -45,3 +46,4 @@ threadpoolctl==3.6.0
 tornado==6.5.5
 traitlets==5.14.3
 wcwidth==0.6.0
+xgboost==3.2.0
